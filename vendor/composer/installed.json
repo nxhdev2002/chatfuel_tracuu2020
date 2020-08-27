@@ -1,0 +1,119 @@
+[
+    {
+        "name": "juno_okyo/php-chatfuel-class",
+        "version": "v1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/J2TeaM/php-chatfuel-class.git",
+            "reference": "ce0405a7fd698c7ff30b7ba1b1de187ec2dcea23"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/J2TeaM/php-chatfuel-class/zipball/ce0405a7fd698c7ff30b7ba1b1de187ec2dcea23",
+            "reference": "ce0405a7fd698c7ff30b7ba1b1de187ec2dcea23",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2017-03-10T05:54:23+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "juno_okyo\\": "src/juno_okyo/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Manh Tuan",
+                "email": "junookyo@gmail.com",
+                "homepage": "https://junookyo.blogspot.com/",
+                "role": "Developer"
+            }
+        ],
+        "description": "A PHP class to generate JSON output for your chatbot (build with Chatfuel)",
+        "homepage": "https://github.com/J2TeaM/php-chatfuel-class",
+        "keywords": [
+            "chatbot",
+            "chatfuel",
+            "facebook bot",
+            "json api",
+            "messenger bot"
+        ]
+    },
+    {
+        "name": "php-curl-class/php-curl-class",
+        "version": "8.7.0",
+        "version_normalized": "8.7.0.0",
+        "source": {
+            "type": "git",
+            "url": "git@github.com:php-curl-class/php-curl-class.git",
+            "reference": "73ec46ed20cdd445b57f15d9da6fcb5a42f74bb4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-curl-class/php-curl-class/zipball/73ec46ed20cdd445b57f15d9da6fcb5a42f74bb4",
+            "reference": "73ec46ed20cdd445b57f15d9da6fcb5a42f74bb4",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.3"
+        },
+        "require-dev": {
+            "ext-gd": "*",
+            "phpunit/phpunit": "*",
+            "squizlabs/php_codesniffer": "*"
+        },
+        "suggest": {
+            "ext-mbstring": "*"
+        },
+        "time": "2020-02-29T05:02:55+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Curl\\": "src/Curl/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Unlicense"
+        ],
+        "authors": [
+            {
+                "name": "Zach Borboa"
+            }
+        ],
+        "description": "PHP Curl Class makes it easy to send HTTP requests and integrate with web APIs.",
+        "homepage": "https://github.com/php-curl-class/php-curl-class",
+        "keywords": [
+            "API-Client",
+            "api",
+            "class",
+            "client",
+            "curl",
+            "framework",
+            "http",
+            "http-client",
+            "http-proxy",
+            "json",
+            "php",
+            "php-curl",
+            "php-curl-library",
+            "proxy",
+            "requests",
+            "restful",
+            "web-scraper",
+            "web-scraping ",
+            "web-service",
+            "xml"
+        ]
+    }
+]
