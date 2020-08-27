@@ -40,6 +40,7 @@ try {
 }
 if (strlen($rt['Su']) == 0 && strlen($rt['Li']) == 0) {
 	echo $chatfuel->sendText("Hmm. Đã xảy ra lỗi khả năng sbd k tồn tại :D");
+	die();
 }
 if (strlen($rt['Su']) > 0) {
 	$tohop = 1;
