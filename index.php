@@ -38,7 +38,7 @@ try {
 	echo($e);
 	echo("Không có điểm xã hội");
 }
-if (count($rt['Su']) > 0) {
+if (strlen($rt['Su']) > 0) {
 	$tohop = 1;
 } else {
 	$tohop = 0;
